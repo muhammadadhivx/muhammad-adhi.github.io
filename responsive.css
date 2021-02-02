@@ -1,0 +1,40 @@
+@media(max-width:1000px){
+    .destination{
+        width:50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:670px){
+    .destination{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer{
+        text-align: center;
+    }
+    .signup, .facebook, .twitter{
+        width: 100%;
+    }
+    .twitter{
+        margin-top: 10px;
+    }
+    .top-wrapper{
+        text-align: left;
+        padding-top: 130px;
+    }
+    .top-wrapper h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .top-wrapper p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .menu-icon{
+        display: block;
+        padding-right: 50px;
+    }
+    .header-right{
+        display: none;
+    }
+}
