@@ -1,0 +1,168 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding:0px 15px;
+    margin: 0px auto;
+    font-family:cursive;
+}
+.clear{
+    clear:left;
+}
+a{
+    text-decoration: none;
+}
+.menu-icon{
+    float:right;
+    color:white;
+    display: none;
+    padding:21px 0;
+    font-size:25px;
+    line-height: 65px;
+    padding-top: 25px;
+}
+header{
+    height:65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top:0px;
+    z-index: 1;
+}
+.header-left{
+    float: left;
+}
+
+}
+.header-right a:hover{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.header-right a{
+    float: right;
+    line-height: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right:50px;
+    display: block;
+    transition: all 0.5s;
+}
+.login{
+    color: white;
+}
+.testimony{
+    color: white;
+}
+
+.logo{
+    width: 125px;
+    margin-top: 9px;
+}
+.container h1{
+    opacity:1px;
+    letter-spacing: 3px;
+    color:white;
+}
+.container-p{
+    opacity: 1;
+    color: white;
+}
+span{
+    color: rgb(212, 67, 57);
+}
+.top-wrapper{
+    padding:180px 0 100px 0;
+    background-image: url(https://images.pexels.com/photos/417222/pexels-photo-417222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:cover;
+    color:white;
+    text-align: center;
+}
+.btn-wrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding:12px 24px;
+    color:white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+.btn span{
+    color: white;
+}
+.btn:hover{
+    opacity:1;
+}
+.signup{
+    background-color: #239b76;
+}
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+.twitter{
+    background-color: #55acee;
+}
+.fa{
+    margin-right: 10px;
+}
+.destination-wrapper{
+    background-color: #faf9f9;
+    text-align: center;
+}
+.heading{
+    padding-top: 60px;
+    padding-top: 30px;
+    color: #5f5d60;
+}
+.heading h2{
+    font-weight: normal;
+}
+.destination{
+    float: left;
+    width: 25%;
+}
+.destination-icon{
+    position: relative;
+}
+.destination-icon p{
+    position: absolute;
+    top:80px;
+    width:100%;
+    color:white;
+}
+
+.txt-contents{
+    margin-top: 25px;
+    width: 80%;
+    font-size: 15px;
+    display: inline-block;
+    color:#b3aeb5;
+}
+.message-wrapper{
+    text-align: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eeeeee;
+}
+.heading h3{
+    font-weight: normal;
+}
+.join{
+    background-color: #5dca88;
+    box-shadow: 0 7px #1a7940;
+    cursor:pointer;
+}
+.join:active{
+    position:relative;
+    top:7px;
+    box-shadow: none;
+}
+footer img{
+    width: 180px;
+}
+footer p{
+    font-size: 15px;
+    color: #b3aeb5;
+}
+footer{
+    padding-top: 30px;
+}
